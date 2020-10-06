@@ -1,0 +1,7 @@
+_devops
+.vscode
+.env
+Dockerfile
+README.md
+node_modules
+build
