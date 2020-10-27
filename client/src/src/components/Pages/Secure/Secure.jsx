@@ -7,8 +7,8 @@ import { useSelector } from 'react-redux';
 // Components
 import Layout from '../../Layout/Layout';
 
-// Home Component
-const Home = () => {
+// Secure Component
+const Secure = () => {
     const { token, fullName } = useSelector(state => state.userInfo);
 
     return(
@@ -35,4 +35,4 @@ const Home = () => {
     )
 };
 
-export default Home;
+export default Secure;
